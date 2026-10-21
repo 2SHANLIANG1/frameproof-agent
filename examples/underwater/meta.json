@@ -1,0 +1,45 @@
+{
+  "duration_sec": 15.1,
+  "width": 864,
+  "height": 496,
+  "audio_track": true,
+  "video_id": "underwater",
+  "title": "深海潜水 · 生物发光洞穴",
+  "synthetic": false,
+  "example": true,
+  "default_example": true,
+  "prompt": "一名深海潜水员下潜到生物发光的海底洞穴中，发光水母和珊瑚，光线从上方穿透，空灵氛围，慢动作，IMAX画质",
+  "segmentation": "equal_duration_heuristic",
+  "shot_table": [
+    {
+      "shot_id": "Shot #1",
+      "t_start": 0.0,
+      "t_end": 2.5166666666666666
+    },
+    {
+      "shot_id": "Shot #2",
+      "t_start": 2.5166666666666666,
+      "t_end": 5.033333333333333
+    },
+    {
+      "shot_id": "Shot #3",
+      "t_start": 5.033333333333333,
+      "t_end": 7.55
+    },
+    {
+      "shot_id": "Shot #4",
+      "t_start": 7.55,
+      "t_end": 10.066666666666666
+    },
+    {
+      "shot_id": "Shot #5",
+      "t_start": 10.066666666666666,
+      "t_end": 12.583333333333334
+    },
+    {
+      "shot_id": "Shot #6",
+      "t_start": 12.583333333333334,
+      "t_end": 15.1
+    }
+  ]
+}

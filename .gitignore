@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+data/
+!data/.gitkeep
+*.log
+*.gguf
+*.safetensors
+.codegraph/
+frontend/node_modules/
+frontend/.vite/
