@@ -14,7 +14,7 @@ test('published showcase cases have usable video, evidence, timed findings and e
     assert.ok(item.report.summary.headline)
     assert.equal(item.report.video_id, item.id)
     assert.equal(item.report.shot_table.length, item.meta.shot_table.length)
-    for (const filename of ['video.mp4', 'poster.jpg', ...item.report.memory.focus_cache.grids]) {
+    for (const filename of ['video.mp4', 'poster.jpg', ...item.meta.shot_table.map((_,index) => `shot-${index+1}.jpg`), ...item.report.memory.focus_cache.grids]) {
       assert.ok(existsSync(new URL(`${item.id}/${filename}`, fixtureRoot)), `${item.id}/${filename}`)
     }
     for (const finding of item.report.findings) {
