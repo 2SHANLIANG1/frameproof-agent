@@ -25,6 +25,8 @@ flowchart TD
   R --> F[人工复核 SQLite]
 ```
 
+更完整的输入到输出流程与本地模型控制循环见 [项目完整工作流程](WORKFLOW.md)。
+
 ## 模式分离
 
 真实推理支持两个后端：Ollama 原生 `/api/chat` 使用本机回环地址，无需 API Key；外部后端保留 HTTPS Chat Completions 协议。本地请求使用 JSON Schema 限制动作、镜头编号和缺陷类型，设置 16384 上下文并记录实际 Token。模型名称随报告保存，避免混淆离线、Ollama 与外部模型结果。
