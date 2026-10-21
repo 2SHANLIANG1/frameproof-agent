@@ -1,6 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import config from '../vite.config.js'
+import createConfig from '../vite.config.js'
+const config = createConfig({ mode: 'development' })
 
 test('development proxy rewrites only its own local origins, preserving foreign-origin rejection', () => {
   const proxy = config.server.proxy['/api']

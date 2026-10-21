@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "underwater",
+    "label": "潜水视频 / 本地模型检测",
+    "caption": "实际千问运行 · 抽样未检出缺陷",
+    "provenance": "本地 Ollama 已完成的真实运行",
+    "meta": {
+      "duration_sec": 15.1,
+      "width": 864,
+      "height": 496,
+      "audio_track": true,
+      "video_id": "underwater",
+      "title": "深海潜水 · 生物发光洞穴",
+      "synthetic": false,
+      "example": true,
+      "default_example": true,
+      "prompt": "一名深海潜水员下潜到生物发光的海底洞穴中，发光水母和珊瑚，光线从上方穿透，空灵氛围，慢动作，IMAX画质",
+      "segmentation": "equal_duration_heuristic",
+      "shot_table": [
+        {
+          "shot_id": "Shot #1",
+          "t_start": 0.0,
+          "t_end": 2.5166666666666666
+        },
+        {
+          "shot_id": "Shot #2",
+          "t_start": 2.5166666666666666,
+          "t_end": 5.033333333333333
+        },
+        {
+          "shot_id": "Shot #3",
+          "t_start": 5.033333333333333,
+          "t_end": 7.55
+        },
+        {
+          "shot_id": "Shot #4",
+          "t_start": 7.55,
+          "t_end": 10.066666666666666
+        },
+        {
+          "shot_id": "Shot #5",
+          "t_start": 10.066666666666666,
+          "t_end": 12.583333333333334
+        },
+        {
+          "shot_id": "Shot #6",
+          "t_start": 12.583333333333334,
+          "t_end": 15.1
+        }
+      ]
+    },
+    "report": {
+      "schema_version": 1,
+      "video_id": "underwater",
+      "title": "深海潜水 · 生物发光洞穴",
+      "mode": "live",
+      "input_prompt": "一名深海潜水员下潜到生物发光的海底洞穴中，发光水母和珊瑚，光线从上方穿透，空灵氛围，慢动作，IMAX画质",
+      "shot_table": [
+        {
+          "shot_id": "Shot #1",
+          "t_start": 0.0,
+          "t_end": 2.5166666666666666
+        },
+        {
+          "shot_id": "Shot #2",
+          "t_start": 2.5166666666666666,
+          "t_end": 5.033333333333333
+        },
+        {
+          "shot_id": "Shot #3",
+          "t_start": 5.033333333333333,
+          "t_end": 7.55
+        },
+        {
+          "shot_id": "Shot #4",
+          "t_start": 7.55,
+          "t_end": 10.066666666666666
+        },
+        {
+          "shot_id": "Shot #5",
+          "t_start": 10.066666666666666,
+          "t_end": 12.583333333333334
+        },
+        {
+          "shot_id": "Shot #6",
+          "t_start": 12.583333333333334,
+          "t_end": 15.1
+        }
+      ],
+      "provider": "ollama",
+      "model": "qwen3-vl:8b-instruct",
+      "status": "needs_review",
+      "elapsed_sec": 213.52,
+      "findings": [],
+      "coverage": [
+        {
+          "task": "entity_0",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "entity_1",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "entity_2",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "element_0",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "element_1",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "element_2",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        },
+        {
+          "task": "defect",
+          "status": "sampled",
+          "exit_reason": "all_shots_sampled",
+          "checked_shot_ids": [
+            "Shot #1",
+            "Shot #2",
+            "Shot #3",
+            "Shot #4",
+            "Shot #5",
+            "Shot #6"
+          ],
+          "total_shots": 6,
+          "detail": "已对 6/6 个镜头各作两组静帧取证。本任务的镜头抽样已完成；静帧抽样不代表逐帧或连续动作检查通过。"
+        }
+      ],
+      "queue": [
+        {
+          "id": "entity_0",
+          "task_type": "consistency",
+          "priority": 0,
+          "question": "核查实体 深海潜水员 的跨镜头外观一致性",
+          "entity": "深海潜水员"
+        },
+        {
+          "id": "entity_1",
+          "task_type": "consistency",
+          "priority": 0,
+          "question": "核查实体 发光水母 的跨镜头外观一致性",
+          "entity": "发光水母"
+        },
+        {
+          "id": "entity_2",
+          "task_type": "consistency",
+          "priority": 0,
+          "question": "核查实体 珊瑚 的跨镜头外观一致性",
+          "entity": "珊瑚"
+        },
+        {
+          "id": "element_0",
+          "task_type": "adherence",
+          "priority": 1,
+          "question": "生物发光效果",
+          "scope": "scene_bound"
+        },
+        {
+          "id": "element_1",
+          "task_type": "adherence",
+          "priority": 1,
+          "question": "慢动作镜头",
+          "scope": "scene_bound"
+        },
+        {
+          "id": "element_2",
+          "task_type": "adherence",
+          "priority": 1,
+          "question": "IMAX画质",
+          "scope": "global"
+        },
+        {
+          "id": "defect",
+          "task_type": "defect",
+          "priority": 2,
+          "question": "检查可见画面缺陷；没有音频转写证据时不要推断音画错位。"
+        }
+      ],
+      "memory": {
+        "focus_cache": {
+          "interval": [
+            0,
+            15.1
+          ],
+          "grids": [
+            "grid-1.jpg",
+            "grid-2.jpg",
+            "grid-3.jpg"
+          ],
+          "num_frames": 24,
+          "sketch": "潜水员从深海洞穴入口下潜，光线从上方穿透；进入洞穴后，镜头聚焦于发光水母与珊瑚，色彩斑斓，慢动作呈现；最后，潜水员在洞穴深处回望，背景是密集发光生物群落，营造空灵氛围。"
+        },
+        "entity_cards": {
+          "深海潜水员.外观一致性": [
+            {
+              "shot_id": "Shot #1",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "无缺陷",
+              "confidence": 1.0
+            }
+          ],
+          "深海潜水员.潜水服颜色": [
+            {
+              "shot_id": "Shot #1",
+              "value": "深色",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "深色",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "深色",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "深色",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "深色",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "深色",
+              "confidence": 1.0
+            }
+          ],
+          "深海潜水员.头灯": [
+            {
+              "shot_id": "Shot #1",
+              "value": "亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "亮着",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "未亮着",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "亮着",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "亮着",
+              "confidence": 1.0
+            }
+          ],
+          "深海潜水员.气瓶": [
+            {
+              "shot_id": "Shot #1",
+              "value": "未清晰可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "未清晰可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "可见",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "未清晰可见",
+              "confidence": 0.99
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "可见",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "可见",
+              "confidence": 1.0
+            }
+          ],
+          "发光水母.外观一致性": [
+            {
+              "shot_id": "Shot #1",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #5",
+              "value": "无缺陷",
+              "confidence": 1.0
+            }
+          ],
+          "珊瑚.外观一致性": [
+            {
+              "shot_id": "Shot #2",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #5",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "无缺陷",
+              "confidence": 1.0
+            },
+            {
+              "shot_id": "Shot #1",
+              "value": "无缺陷",
+              "confidence": 1.0
+            }
+          ]
+        },
+        "ledger": [
+          {
+            "step": 1,
+            "action": "shot_selector",
+            "intent": "全片粗筛，保留镜头切换前后采样点",
+            "interval": [
+              0,
+              15.1
+            ],
+            "output": {
+              "grids": [
+                "grid-1.jpg",
+                "grid-2.jpg",
+                "grid-3.jpg"
+              ],
+              "num_frames": 24
+            }
+          },
+          {
+            "step": 2,
+            "action": "shot_selector",
+            "intent": "对粗筛网格生成区间速写",
+            "interval": [
+              0,
+              15.1
+            ],
+            "output": {
+              "sketch": "潜水员从深海洞穴入口下潜，光线从上方穿透；进入洞穴后，镜头聚焦于发光水母与珊瑚，色彩斑斓，慢动作呈现；最后，潜水员在洞穴深处回望，背景是密集发光生物群落，营造空灵氛围。"
+            }
+          },
+          {
+            "step": 3,
+            "action": "probe",
+            "intent": "初步核查深海潜水员在前两个镜头中的外观一致性",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "entity_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无跨镜头外观一致性缺陷",
+                "潜水员在两个镜头中的潜水服颜色和头灯状态一致，但气瓶在Shot #1中不可见而在Shot #2中可见，这可能与视角或生成方式有关，但未构成外观一致性缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 4,
+            "action": "probe",
+            "intent": "核查深海潜水员在Shot #3与Shot #4中的外观一致性",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "entity_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "实体深海潜水员在Shot #3和Shot #4中外观一致，潜水服颜色、头灯状态均无跨镜头差异，气瓶在Shot #3中可见而在Shot #4中未清晰可见，符合参考档案描述。",
+                "实体深海潜水员在Shot #3和Shot #4中外观一致，潜水服颜色、头灯状态与参考一致，气瓶在Shot #3中可见而在Shot #4中未清晰可见，符合预期差异。"
+              ]
+            }
+          },
+          {
+            "step": 5,
+            "action": "probe",
+            "intent": "核查深海潜水员在Shot #5与Shot #6中的外观一致性",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "entity_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "无外观一致性缺陷",
+                "无外观一致性缺陷"
+              ]
+            }
+          },
+          {
+            "step": 6,
+            "action": "probe",
+            "intent": "复核发光水母在前两个镜头中的外观一致性",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "entity_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "在提供的镜头中未发现发光水母的外观一致性缺陷。",
+                "发光水母在Shot #1和Shot #2中均呈现为发光、半透明形态，外观一致，无可见缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 7,
+            "action": "probe",
+            "intent": "复核发光水母在Shot #3与Shot #4中的外观一致性",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "entity_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "发光水母在Shot #3和Shot #4中外观一致，无缺陷。",
+                "发光水母在Shot #3和Shot #4中外观一致，无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 8,
+            "action": "probe",
+            "intent": "复核发光水母在Shot #5与Shot #6中的外观一致性",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "entity_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "发光水母在Shot #5中外观一致，无缺陷。",
+                "发光水母在Shot #5中外观一致，无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 9,
+            "action": "probe",
+            "intent": "核查珊瑚在前两个镜头中的外观一致性",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "entity_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无缺陷",
+                "珊瑚在Shot #2中外观一致，无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 10,
+            "action": "probe",
+            "intent": "复核珊瑚在Shot #3与Shot #4中的外观一致性",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "entity_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "珊瑚在Shot #3和Shot #4中外观一致，无缺陷。",
+                "珊瑚在Shot #3和Shot #4中外观一致，无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 11,
+            "action": "probe",
+            "intent": "复核珊瑚在Shot #5与Shot #6中的外观一致性",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "entity_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "珊瑚在Shot #5和Shot #6中外观一致，无缺陷。",
+                "无缺陷"
+              ]
+            }
+          },
+          {
+            "step": 12,
+            "action": "probe",
+            "intent": "复核生物发光效果在前两个镜头中的呈现",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "element_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无生物发光效果缺陷，潜水员头灯和气瓶在镜头间存在可见性差异，但符合参考档案描述。",
+                "无缺陷"
+              ]
+            }
+          },
+          {
+            "step": 13,
+            "action": "probe",
+            "intent": "复核生物发光效果在Shot #3与Shot #4中的呈现",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "element_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "无缺陷",
+                "镜头Shot #3中潜水员头灯亮着，气瓶可见，发光水母与珊瑚外观一致无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 14,
+            "action": "probe",
+            "intent": "复核生物发光效果在Shot #5与Shot #6中的呈现",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "element_0",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "所有检查项在Shot #5和Shot #6中均无缺陷，符合原始提示词要求。",
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考中其他镜头的描述存在不一致。"
+              ]
+            }
+          },
+          {
+            "step": 15,
+            "action": "probe",
+            "intent": "复核慢动作镜头在前两个镜头中的呈现",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "element_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无缺陷",
+                "无缺陷"
+              ]
+            }
+          },
+          {
+            "step": 16,
+            "action": "probe",
+            "intent": "复核慢动作镜头在Shot #3与Shot #4中的呈现",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "element_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "镜头Shot #3中潜水员头灯亮着，气瓶可见，发光水母与珊瑚外观一致，无缺陷。",
+                "镜头Shot #3中潜水员头灯亮着、气瓶可见，发光水母与珊瑚外观一致，无缺陷。"
+              ]
+            }
+          },
+          {
+            "step": 17,
+            "action": "probe",
+            "intent": "复核慢动作镜头在Shot #5与Shot #6中的呈现",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "element_1",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考中部分镜头的描述存在差异。",
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考中部分镜头的描述存在差异。"
+              ]
+            }
+          },
+          {
+            "step": 18,
+            "action": "probe",
+            "intent": "复核IMAX画质在前两个镜头中的呈现",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "element_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无缺陷",
+                "无缺陷"
+              ]
+            }
+          },
+          {
+            "step": 19,
+            "action": "probe",
+            "intent": "复核IMAX画质在Shot #3与Shot #4中的呈现",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "element_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "无缺陷",
+                "无缺陷"
+              ]
+            }
+          },
+          {
+            "step": 20,
+            "action": "probe",
+            "intent": "复核IMAX画质在Shot #5与Shot #6中的呈现",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "element_2",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考中部分镜头的描述存在差异。",
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考中部分镜头的描述存在差异。"
+              ]
+            }
+          },
+          {
+            "step": 21,
+            "action": "probe",
+            "intent": "复核IMAX画质在前两个镜头中的呈现",
+            "interval": [
+              0,
+              5.033333333333333
+            ],
+            "output": {
+              "task": "defect",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #1",
+                "Shot #2"
+              ],
+              "observations": [
+                "无可见画面缺陷",
+                "无可见画面缺陷"
+              ]
+            }
+          },
+          {
+            "step": 22,
+            "action": "probe",
+            "intent": "复核IMAX画质在Shot #3与Shot #4中的呈现",
+            "interval": [
+              5.033333333333333,
+              10.066666666666666
+            ],
+            "output": {
+              "task": "defect",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #3",
+                "Shot #4"
+              ],
+              "observations": [
+                "无可见画面缺陷",
+                "无可见画面缺陷"
+              ]
+            }
+          },
+          {
+            "step": 23,
+            "action": "probe",
+            "intent": "复核Shot #5与Shot #6中潜水员装备与环境细节一致性",
+            "interval": [
+              10.066666666666666,
+              15.1
+            ],
+            "output": {
+              "task": "defect",
+              "findings": [],
+              "verification": [],
+              "shot_ids": [
+                "Shot #5",
+                "Shot #6"
+              ],
+              "observations": [
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考卡中其他镜头的描述存在不一致。",
+                "在Shot #6中，潜水员的头灯未亮着，且气瓶未清晰可见，与参考卡片中该镜头的描述存在差异。"
+              ]
+            }
+          }
+        ],
+        "probe_buffer": {}
+      },
+      "sampled_frames": 24,
+      "model_calls": 65,
+      "usage": [
+        {
+          "role": "planner",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 422,
+          "tokens_out": 51,
+          "elapsed_sec": 9.7
+        },
+        {
+          "role": "shot_selector",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3670,
+          "tokens_out": 67,
+          "elapsed_sec": 4.0
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 819,
+          "tokens_out": 33,
+          "elapsed_sec": 0.96
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2503,
+          "tokens_out": 81,
+          "elapsed_sec": 3.07
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2503,
+          "tokens_out": 251,
+          "elapsed_sec": 4.86
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1218,
+          "tokens_out": 36,
+          "elapsed_sec": 0.91
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2738,
+          "tokens_out": 255,
+          "elapsed_sec": 4.95
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2738,
+          "tokens_out": 252,
+          "elapsed_sec": 4.94
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1518,
+          "tokens_out": 36,
+          "elapsed_sec": 1.02
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2888,
+          "tokens_out": 112,
+          "elapsed_sec": 3.56
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2888,
+          "tokens_out": 112,
+          "elapsed_sec": 3.5
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1554,
+          "tokens_out": 32,
+          "elapsed_sec": 1.1
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2959,
+          "tokens_out": 87,
+          "elapsed_sec": 3.32
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 2959,
+          "tokens_out": 101,
+          "elapsed_sec": 3.4
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1643,
+          "tokens_out": 36,
+          "elapsed_sec": 1.0
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3015,
+          "tokens_out": 91,
+          "elapsed_sec": 3.41
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3015,
+          "tokens_out": 91,
+          "elapsed_sec": 3.29
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1670,
+          "tokens_out": 36,
+          "elapsed_sec": 1.05
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3063,
+          "tokens_out": 58,
+          "elapsed_sec": 3.06
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3063,
+          "tokens_out": 58,
+          "elapsed_sec": 2.98
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1583,
+          "tokens_out": 29,
+          "elapsed_sec": 1.08
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3085,
+          "tokens_out": 17,
+          "elapsed_sec": 2.63
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3085,
+          "tokens_out": 54,
+          "elapsed_sec": 2.95
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1608,
+          "tokens_out": 34,
+          "elapsed_sec": 0.98
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3115,
+          "tokens_out": 85,
+          "elapsed_sec": 3.36
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3115,
+          "tokens_out": 85,
+          "elapsed_sec": 3.27
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1668,
+          "tokens_out": 34,
+          "elapsed_sec": 0.98
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3163,
+          "tokens_out": 85,
+          "elapsed_sec": 3.36
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3163,
+          "tokens_out": 17,
+          "elapsed_sec": 2.56
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1630,
+          "tokens_out": 31,
+          "elapsed_sec": 1.1
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3204,
+          "tokens_out": 230,
+          "elapsed_sec": 4.9
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3204,
+          "tokens_out": 168,
+          "elapsed_sec": 4.21
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1622,
+          "tokens_out": 35,
+          "elapsed_sec": 1.05
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3228,
+          "tokens_out": 134,
+          "elapsed_sec": 3.9
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3228,
+          "tokens_out": 158,
+          "elapsed_sec": 4.07
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1660,
+          "tokens_out": 35,
+          "elapsed_sec": 1.01
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3228,
+          "tokens_out": 213,
+          "elapsed_sec": 4.62
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3228,
+          "tokens_out": 112,
+          "elapsed_sec": 3.62
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1696,
+          "tokens_out": 31,
+          "elapsed_sec": 1.19
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3375,
+          "tokens_out": 76,
+          "elapsed_sec": 3.44
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3375,
+          "tokens_out": 132,
+          "elapsed_sec": 3.82
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1672,
+          "tokens_out": 35,
+          "elapsed_sec": 1.13
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3422,
+          "tokens_out": 157,
+          "elapsed_sec": 4.24
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3422,
+          "tokens_out": 157,
+          "elapsed_sec": 4.13
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1718,
+          "tokens_out": 35,
+          "elapsed_sec": 1.14
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 111,
+          "elapsed_sec": 3.8
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 111,
+          "elapsed_sec": 3.65
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1742,
+          "tokens_out": 32,
+          "elapsed_sec": 1.25
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 76,
+          "elapsed_sec": 3.44
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 132,
+          "elapsed_sec": 3.86
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1683,
+          "tokens_out": 36,
+          "elapsed_sec": 1.04
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 132,
+          "elapsed_sec": 3.85
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 132,
+          "elapsed_sec": 3.84
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1705,
+          "tokens_out": 36,
+          "elapsed_sec": 1.03
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 111,
+          "elapsed_sec": 3.6
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3469,
+          "tokens_out": 111,
+          "elapsed_sec": 3.61
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1712,
+          "tokens_out": 32,
+          "elapsed_sec": 1.23
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 78,
+          "elapsed_sec": 3.5
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 134,
+          "elapsed_sec": 3.88
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1647,
+          "tokens_out": 36,
+          "elapsed_sec": 1.04
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 134,
+          "elapsed_sec": 3.84
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 134,
+          "elapsed_sec": 3.84
+        },
+        {
+          "role": "controller",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 1671,
+          "tokens_out": 37,
+          "elapsed_sec": 1.05
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 113,
+          "elapsed_sec": 3.62
+        },
+        {
+          "role": "probe",
+          "model": "qwen3-vl:8b-instruct",
+          "provider": "ollama",
+          "tokens_in": 3477,
+          "tokens_out": 112,
+          "elapsed_sec": 3.63
+        }
+      ],
+      "tokens": 178002,
+      "limitations": [
+        "合成样例不是生产评测数据",
+        "置信度未经过生产标定",
+        "未接入 ASR；不输出音画错位结论",
+        "语义检查只覆盖已采样镜头，不能保证发现短暂帧级缺陷"
+      ],
+      "summary": {
+        "version": 2,
+        "headline": "抽样检查完成，未检出缺陷",
+        "overview": "本次 7 项任务均已完成全部镜头的计划抽样，未检出确定缺陷或疑似问题。",
+        "outcome": "sampled_clear",
+        "tasks_finished": true,
+        "verdict_label": "抽样检查完成 · 未检出缺陷",
+        "confirmed_count": 0,
+        "suspected_count": 0,
+        "affected_shots": [],
+        "coverage_complete": false,
+        "coverage_text": "7 项抽样检查。计划抽样已完成；结论适用于采样画面，不包含逐帧、连续动作和音画同步检查。",
+        "key_findings": [],
+        "next_action": "本次抽样未发现需要处理的问题，可下载报告。如需检查短暂闪烁或动作连贯性，可另作连续画面检查。",
+        "note": "总结依据报告中的证据记录整理；模型结论仍可能误判，置信度不等于准确率。"
+      }
+    }
+  },
+  {
+    "id": "drift",
+    "label": "外观漂移 / 问题定位",
+    "caption": "合成样例 · 第 4 镜头出现外观漂移",
+    "provenance": "合成视频实际解码与像素测量",
+    "meta": {
+      "video_id": "drift",
+      "title": "雨夜档案 · 外观漂移",
+      "duration_sec": 12,
+      "audio_track": false,
+      "synthetic": true,
+      "prompt": "女记者穿米色风衣，在雨夜天台追查旧案，最终回到档案室。",
+      "gen_params": {
+        "resolution": [
+          640,
+          360
+        ]
+      },
+      "shot_table": [
+        {
+          "shot_id": "Shot #1",
+          "t_start": 0,
+          "t_end": 2
+        },
+        {
+          "shot_id": "Shot #2",
+          "t_start": 2,
+          "t_end": 4
+        },
+        {
+          "shot_id": "Shot #3",
+          "t_start": 4,
+          "t_end": 6
+        },
+        {
+          "shot_id": "Shot #4",
+          "t_start": 6,
+          "t_end": 8
+        },
+        {
+          "shot_id": "Shot #5",
+          "t_start": 8,
+          "t_end": 10
+        },
+        {
+          "shot_id": "Shot #6",
+          "t_start": 10,
+          "t_end": 12
+        }
+      ],
+      "requirements": [
+        {
+          "text": "雨夜天台",
+          "shots": [
+            "Shot #3",
+            "Shot #4"
+          ]
+        }
+      ]
+    },
+    "report": {
+      "schema_version": 1,
+      "video_id": "drift",
+      "title": "雨夜档案 · 外观漂移",
+      "mode": "offline",
+      "input_prompt": "女记者穿米色风衣，在雨夜天台追查旧案，最终回到档案室。",
+      "shot_table": [
+        {
+          "shot_id": "Shot #1",
+          "t_start": 0,
+          "t_end": 2
+        },
+        {
+          "shot_id": "Shot #2",
+          "t_start": 2,
+          "t_end": 4
+        },
+        {
+          "shot_id": "Shot #3",
+          "t_start": 4,
+          "t_end": 6
+        },
+        {
+          "shot_id": "Shot #4",
+          "t_start": 6,
+          "t_end": 8
+        },
+        {
+          "shot_id": "Shot #5",
+          "t_start": 8,
+          "t_end": 10
+        },
+        {
+          "shot_id": "Shot #6",
+          "t_start": 10,
+          "t_end": 12
+        }
+      ],
+      "provider": null,
+      "model": null,
+      "status": "fail",
+      "elapsed_sec": 7.91,
+      "findings": [
+        {
+          "shot_id": "Shot #4",
+          "defect_type": "character_appearance_drift",
+          "confidence": 1,
+          "zone": "confirmed",
+          "source": "synthetic_pixel_measurement",
+          "evidence": "外套色块为蓝色外套，多数镜头为米色风衣；第二采样点复核一致。",
+          "evidence_shot_ids": [
+            "Shot #1",
+            "Shot #2"
+          ],
+          "timestamp": 6
+        }
+      ],
+      "coverage": [
+        {
+          "task": "consistency",
+          "status": "measured",
+          "detail": "仅验证合成视频已知外套色块，非通用角色识别"
+        },
+        {
+          "task": "adherence",
+          "status": "annotation_only",
+          "detail": "雨夜天台标签来自样例场景标注，未作模型语义判定"
+        },
+        {
+          "task": "defect",
+          "status": "unsupported",
+          "detail": "离线模式不识别物理异常；未接入 ASR，不评估音画同步"
+        }
+      ],
+      "queue": [
+        {
+          "id": "consistency",
+          "task_type": "consistency",
+          "priority": 0,
+          "question": "主要角色的外观是否跨镜头一致？用前后对照证据定位异常。"
+        },
+        {
+          "id": "adherence",
+          "task_type": "adherence",
+          "priority": 1,
+          "question": "逐项核查提示词的场景与动作约束，区分全局约束和场景约束：女记者穿米色风衣，在雨夜天台追查旧案，最终回到档案室。"
+        },
+        {
+          "id": "defect",
+          "task_type": "defect",
+          "priority": 2,
+          "question": "检查可见画面缺陷；没有音频转写证据时不要推断音画错位。"
+        }
+      ],
+      "memory": {
+        "focus_cache": {
+          "interval": [
+            0,
+            12.0
+          ],
+          "grids": [
+            "grid-1.jpg",
+            "grid-2.jpg",
+            "grid-3.jpg"
+          ],
+          "num_frames": 24
+        },
+        "entity_cards": {
+          "lead.coat": [
+            {
+              "shot_id": "Shot #1",
+              "value": "米色风衣",
+              "confidence": 1
+            },
+            {
+              "shot_id": "Shot #2",
+              "value": "米色风衣",
+              "confidence": 1
+            },
+            {
+              "shot_id": "Shot #3",
+              "value": "米色风衣",
+              "confidence": 1
+            },
+            {
+              "shot_id": "Shot #4",
+              "value": "蓝色外套",
+              "confidence": 1
+            },
+            {
+              "shot_id": "Shot #5",
+              "value": "米色风衣",
+              "confidence": 1
+            },
+            {
+              "shot_id": "Shot #6",
+              "value": "米色风衣",
+              "confidence": 1
+            }
+          ]
+        },
+        "ledger": [
+          {
+            "step": 1,
+            "action": "shot_selector",
+            "intent": "全片粗筛，保留镜头切换前后采样点",
+            "interval": [
+              0,
+              12.0
+            ],
+            "output": {
+              "grids": [
+                "grid-1.jpg",
+                "grid-2.jpg",
+                "grid-3.jpg"
+              ],
+              "num_frames": 24
+            }
+          },
+          {
+            "step": 2,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              0,
+              2
+            ],
+            "output": {
+              "shot_id": "Shot #1",
+              "value": "米色风衣",
+              "rgb": [
+                209.0,
+                180.0,
+                138.0
+              ]
+            }
+          },
+          {
+            "step": 3,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              2,
+              4
+            ],
+            "output": {
+              "shot_id": "Shot #2",
+              "value": "米色风衣",
+              "rgb": [
+                209.0,
+                180.0,
+                138.0
+              ]
+            }
+          },
+          {
+            "step": 4,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              4,
+              6
+            ],
+            "output": {
+              "shot_id": "Shot #3",
+              "value": "米色风衣",
+              "rgb": [
+                209.0,
+                180.0,
+                138.0
+              ]
+            }
+          },
+          {
+            "step": 5,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              6,
+              8
+            ],
+            "output": {
+              "shot_id": "Shot #4",
+              "value": "蓝色外套",
+              "rgb": [
+                41.0,
+                58.0,
+                86.0
+              ]
+            }
+          },
+          {
+            "step": 6,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              8,
+              10
+            ],
+            "output": {
+              "shot_id": "Shot #5",
+              "value": "米色风衣",
+              "rgb": [
+                209.0,
+                180.0,
+                138.0
+              ]
+            }
+          },
+          {
+            "step": 7,
+            "action": "probe",
+            "intent": "在已知合成角色区域测量外套色块",
+            "interval": [
+              10,
+              12
+            ],
+            "output": {
+              "shot_id": "Shot #6",
+              "value": "米色风衣",
+              "rgb": [
+                209.0,
+                180.0,
+                138.0
+              ]
+            }
+          }
+        ],
+        "probe_buffer": {}
+      },
+      "sampled_frames": 24,
+      "model_calls": 0,
+      "usage": [],
+      "tokens": 0,
+      "limitations": [
+        "合成样例不是生产评测数据",
+        "置信度未经过生产标定",
+        "未接入 ASR；不输出音画错位结论",
+        "语义检查只覆盖已采样镜头，不能保证发现短暂帧级缺陷"
+      ],
+      "summary": {
+        "version": 2,
+        "headline": "发现问题，建议修改后复核",
+        "overview": "本次报告包含 1 项确定缺陷、0 项疑似问题。 涉及镜头：Shot #4。",
+        "outcome": "defects_found",
+        "tasks_finished": false,
+        "verdict_label": "发现确定缺陷",
+        "confirmed_count": 1,
+        "suspected_count": 0,
+        "affected_shots": [
+          "Shot #4"
+        ],
+        "coverage_complete": false,
+        "coverage_text": "1 项直接检测；1 项检查暂不支持；1 项仅有样例标注。不能据此认定全片通过质检。",
+        "key_findings": [
+          {
+            "shot_id": "Shot #4",
+            "label": "角色外观漂移",
+            "zone": "confirmed",
+            "evidence": "外套色块为蓝色外套，多数镜头为米色风衣；第二采样点复核一致。",
+            "timestamp": 6
+          }
+        ],
+        "next_action": "先核对下方证据，修复对应镜头或参数后重新质检。 补齐未完成或暂不支持的检查后再作最终判断。",
+        "note": "总结依据报告中的证据记录整理；模型结论仍可能误判，置信度不等于准确率。"
+      }
+    }
+  }
+]

@@ -10,3 +10,4 @@ data/
 .codegraph/
 frontend/node_modules/
 frontend/.vite/
+showcase-dist/

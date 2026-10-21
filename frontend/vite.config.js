@@ -16,12 +16,14 @@ const proxy = Object.fromEntries(['/api', '/media', '/artifacts'].map(path => [p
   },
 }]))
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === 'showcase' ? '/frameproof-agent/' : '/',
+  publicDir: mode === 'showcase' ? fileURLToPath(new URL('../showcase/public', import.meta.url)) : false,
   plugins: [vue()],
   server: { host: '127.0.0.1', port: 5173, strictPort: true, proxy },
   build: {
-    outDir: fileURLToPath(new URL('../web', import.meta.url)),
+    outDir: fileURLToPath(new URL(mode === 'showcase' ? '../showcase-dist' : '../web', import.meta.url)),
     emptyOutDir: true,
     sourcemap: false,
   },
-})
+}))

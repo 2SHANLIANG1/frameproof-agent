@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-import './style.css'
-
-createApp(App).mount('#app')
+if (import.meta.env.MODE === 'showcase') {
+  import('./ShowcaseApp.vue').then(({ default: App }) => createApp(App).mount('#app'))
+} else {
+  Promise.all([import('./App.vue'), import('./style.css')])
+    .then(([{ default: App }]) => createApp(App).mount('#app'))
+}

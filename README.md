@@ -2,6 +2,8 @@
 
 **一个可以本地运行、展示取证过程、导出逐镜头报告的视频质检作品。**
 
+**[打开在线体验网页 ↗](https://2shanliang1.github.io/frameproof-agent/)** — 无需安装，直接播放示例、定位问题镜头、查看实际报告与采样证据。在线展示版使用已完成运行的结果，不提供上传和实时模型检测；完整功能按下方说明在本机运行。
+
 前端：**Vue 3 + Composition API + Vite**；后端：Python 视频处理、任务调度与 Ollama 模型适配。Vue 源码位于 `frontend/`，构建页面位于 `web/`，保留双击启动体验。
 
 **项目导航：** [完整工作流程](docs/WORKFLOW.md) · [架构与设计取舍](docs/ARCHITECTURE.md) · [前端开发说明](docs/FRONTEND.md)
@@ -195,7 +197,7 @@ pnpm dev
 
 > Evidence-first video QC agent demo with structured memory, local media tools and an inspectable review workflow.
 
-本地网页依赖 Python 后端，不能直接使用 GitHub Pages 托管完整功能。GitHub 首页通过流程图、源码说明和一键启动脚本供审阅。若要对公网提供体验，需要另做鉴权、存储隔离、限流和部署。
+本地网页依赖 Python 后端，不能直接使用 GitHub Pages 托管完整检测功能。另有独立的 Vue 在线展示版，由 GitHub Pages 托管公开示例与已生成报告；构建与维护见 [在线展示版说明](docs/PAGES.md)。若要对公网提供上传和实时检测，需要另做鉴权、存储隔离、限流和模型部署。
 
 ## 项目来源与声明
 
