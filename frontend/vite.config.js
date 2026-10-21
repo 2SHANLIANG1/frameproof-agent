@@ -19,7 +19,18 @@ const proxy = Object.fromEntries(['/api', '/media', '/artifacts'].map(path => [p
 export default defineConfig(({ mode }) => ({
   base: mode === 'showcase' ? '/frameproof-agent/' : '/',
   publicDir: mode === 'showcase' ? fileURLToPath(new URL('../showcase/public', import.meta.url)) : false,
-  plugins: [vue()],
+  plugins: [vue(), {
+    name: 'showcase-entry',
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html) {
+        return mode === 'showcase'
+          ? html.replace('/src/main.js', '/src/showcase-main.js')
+            .replace('<title>视频质检工具</title>', '<title>视频质检项目 · 在线体验</title>')
+          : html
+      },
+    },
+  }],
   server: { host: '127.0.0.1', port: 5173, strictPort: true, proxy },
   build: {
     outDir: fileURLToPath(new URL(mode === 'showcase' ? '../showcase-dist' : '../web', import.meta.url)),
