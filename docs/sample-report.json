@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "video_id": "drift",
+  "title": "雨夜档案 · 外观漂移",
+  "mode": "offline",
+  "status": "fail",
+  "elapsed_sec": 7.74,
+  "findings": [
+    {
+      "shot_id": "Shot #4",
+      "defect_type": "character_appearance_drift",
+      "confidence": 1,
+      "zone": "confirmed",
+      "source": "synthetic_pixel_measurement",
+      "evidence": "外套色块为蓝色外套，多数镜头为米色风衣；第二采样点复核一致。",
+      "evidence_shot_ids": [
+        "Shot #1",
+        "Shot #2"
+      ],
+      "timestamp": 6
+    }
+  ],
+  "coverage": [
+    {
+      "task": "consistency",
+      "status": "measured",
+      "detail": "仅验证合成视频已知外套色块，非通用角色识别"
+    },
+    {
+      "task": "adherence",
+      "status": "annotation_only",
+      "detail": "雨夜天台标签来自样例场景标注，未作模型语义判定"
+    },
+    {
+      "task": "defect",
+      "status": "unsupported",
+      "detail": "离线模式不识别物理异常；未接入 ASR，不评估音画同步"
+    }
+  ],
+  "queue": [
+    {
+      "id": "consistency",
+      "task_type": "consistency",
+      "priority": 0,
+      "question": "主要角色的外观是否跨镜头一致？用前后对照证据定位异常。"
+    },
+    {
+      "id": "adherence",
+      "task_type": "adherence",
+      "priority": 1,
+      "question": "逐项核查提示词的场景与动作约束，区分全局约束和场景约束：女记者穿米色风衣，在雨夜天台追查旧案，最终回到档案室。"
+    },
+    {
+      "id": "defect",
+      "task_type": "defect",
+      "priority": 2,
+      "question": "检查可见画面缺陷；没有音频转写证据时不要推断音画错位。"
+    }
+  ],
+  "memory": {
+    "focus_cache": {
+      "interval": [
+        0,
+        12.0
+      ],
+      "grids": [
+        "grid-1.jpg",
+        "grid-2.jpg",
+        "grid-3.jpg"
+      ],
+      "num_frames": 24
+    },
+    "entity_cards": {
+      "lead.coat": [
+        {
+          "shot_id": "Shot #1",
+          "value": "米色风衣",
+          "confidence": 1
+        },
+        {
+          "shot_id": "Shot #2",
+          "value": "米色风衣",
+          "confidence": 1
+        },
+        {
+          "shot_id": "Shot #3",
+          "value": "米色风衣",
+          "confidence": 1
+        },
+        {
+          "shot_id": "Shot #4",
+          "value": "蓝色外套",
+          "confidence": 1
+        },
+        {
+          "shot_id": "Shot #5",
+          "value": "米色风衣",
+          "confidence": 1
+        },
+        {
+          "shot_id": "Shot #6",
+          "value": "米色风衣",
+          "confidence": 1
+        }
+      ]
+    },
+    "ledger": [
+      {
+        "step": 1,
+        "action": "shot_selector",
+        "intent": "全片粗筛，保留镜头切换前后采样点",
+        "interval": [
+          0,
+          12.0
+        ],
+        "output": {
+          "grids": [
+            "grid-1.jpg",
+            "grid-2.jpg",
+            "grid-3.jpg"
+          ],
+          "num_frames": 24
+        }
+      },
+      {
+        "step": 2,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          0,
+          2
+        ],
+        "output": {
+          "shot_id": "Shot #1",
+          "value": "米色风衣",
+          "rgb": [
+            209.0,
+            180.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "step": 3,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          2,
+          4
+        ],
+        "output": {
+          "shot_id": "Shot #2",
+          "value": "米色风衣",
+          "rgb": [
+            209.0,
+            180.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "step": 4,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          4,
+          6
+        ],
+        "output": {
+          "shot_id": "Shot #3",
+          "value": "米色风衣",
+          "rgb": [
+            209.0,
+            180.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "step": 5,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          6,
+          8
+        ],
+        "output": {
+          "shot_id": "Shot #4",
+          "value": "蓝色外套",
+          "rgb": [
+            41.0,
+            58.0,
+            86.0
+          ]
+        }
+      },
+      {
+        "step": 6,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          8,
+          10
+        ],
+        "output": {
+          "shot_id": "Shot #5",
+          "value": "米色风衣",
+          "rgb": [
+            209.0,
+            180.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "step": 7,
+        "action": "probe",
+        "intent": "在已知合成角色区域测量外套色块",
+        "interval": [
+          10,
+          12
+        ],
+        "output": {
+          "shot_id": "Shot #6",
+          "value": "米色风衣",
+          "rgb": [
+            209.0,
+            180.0,
+            138.0
+          ]
+        }
+      }
+    ],
+    "probe_buffer": {}
+  },
+  "sampled_frames": 24,
+  "model_calls": 0,
+  "usage": [],
+  "tokens": 0,
+  "limitations": [
+    "合成样例不是生产评测数据",
+    "置信度未经过生产标定",
+    "未接入 ASR；不输出音画错位结论",
+    "语义检查只覆盖已采样镜头，不能保证发现短暂帧级缺陷"
+  ]
+}

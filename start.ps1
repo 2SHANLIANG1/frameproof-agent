@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
 if (-not (Test-Path -LiteralPath (Join-Path $PSScriptRoot 'web/index.html'))) {
-    throw 'Frontend build is missing. In frontend/, run pnpm install --frozen-lockfile and pnpm build first.'
+    throw 'Frontend build is missing. In frontend/, run pnpm install --frozen-lockfile and pnpm build first. See docs/FRONTEND.md.'
 }
 $pythonExe = Join-Path $PSScriptRoot '.venv/Scripts/python.exe'
 if (-not (Test-Path -LiteralPath $pythonExe)) {
